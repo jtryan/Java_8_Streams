@@ -8,7 +8,7 @@ public class User {
     private int age;
     private List<String> colors;
 
-    User(final String firstname, final int age, final List<String> colors) {
+    public User(final String firstname, final int age, final List<String> colors) {
         this.age = age;
         this.colors = colors;
         this.firstname = firstname;
