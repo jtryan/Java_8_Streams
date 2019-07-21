@@ -26,4 +26,12 @@ public class User {
         return colors;
     }
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "firstname='" + firstname + '\'' +
+                ", age=" + age +
+                ", colors=" + colors +
+                '}';
+    }
 }
